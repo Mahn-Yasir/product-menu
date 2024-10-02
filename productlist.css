@@ -1,0 +1,451 @@
+body{
+    background-color: rgb(219, 196, 255);
+    display:inline;  
+}
+
+.line_one{
+    display: grid;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    margin-left: 4%;
+}
+
+.waffle{
+    display: inline-block;
+    align-items: center;
+
+   
+}
+
+.waffle_img{
+    border-radius: 10px;
+    width: 11rem;
+    height: 11rem;
+    margin-top: 1px;
+   
+}
+
+.waffle_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    position: absolute;
+    top: 26rcap;
+    left: 5rem;
+    font-size: 15px;
+    align-items: center;
+    margin:0 auto;
+    color: grey;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.waffle_txt{
+    font-size: small;
+    color: grey;
+}
+
+.waffle_price{
+    color: rgba(165, 42, 42, 0.788);
+    margin-bottom: 30px;
+}
+.creme_brulee{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+
+.creme_brulee_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem;
+    margin-bottom: 2px;
+    
+   
+}
+
+.creme_brulee_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    position: absolute;
+    top: 26rcap;
+    left: 21pc;
+    font-size: 15px;
+    align-items: center;
+    margin:0 auto;
+    color: grey;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.creme_brulee_txt{
+    font-size: small;
+    color: grey;
+
+}
+
+.creme_brulee_price{
+    color: brown;
+    margin-bottom: 30px;
+
+}
+.macaron{
+    display: inline-block;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.macaron_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem;
+    margin-bottom: 2px;
+}
+
+.macaron_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    position: absolute;
+    top: 26rcap;
+    left: 39pc;
+    font-size: 15px;
+    align-items: center;
+    margin:0 auto;
+    color: grey;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.macaron_price{
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.macaron_txt{
+    font-size: small;
+    color: grey;
+
+}
+.line_two{
+     display: grid;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    margin-left: 4%;
+
+}
+
+.tiramisu{
+    display: inline-block;
+    align-items: center;
+    
+}
+.tiramisu_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem;   
+}
+.tiramisu_button{
+     border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color:rgba(165, 42, 42, 0.788);
+    display: flex;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 52rcap;
+    left: 5rem;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tiramisu_price{
+    color: brown;
+    margin-bottom: 30px;
+}
+.tiramisu_txt{
+    font-size: small;
+    color: grey;
+    
+}
+
+.Baklava{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+
+.Baklava_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem;  
+}
+
+.Baklava_txt{
+    font-size: small;
+    color: grey;
+}
+
+.Baklava_price{
+    color: brown;
+    margin-bottom: 30px;
+}
+
+
+.Baklava_button{ 
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    font-size: 15px;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 22pc;
+    top: 52rcap;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Pie{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.Pie_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem; 
+}
+
+.Pie_price{
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.Pie_txt{
+    font-size: small;
+    color: grey;
+}
+
+.Pie_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    font-size: 15px;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 52rcap;
+    left:39pc ;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.line_three{
+    display: grid;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    margin-left: 4%;
+
+}
+.Cake{
+    display: inline-block;
+    align-items: center;   
+}
+
+.Cake_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem; 
+
+}
+
+.Cake_txt{
+    font-size: small;
+    color: grey;
+}
+
+.Cake_price{
+    color: brown;
+    margin-bottom: 30px;
+
+}
+
+.Cake_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 6%;
+    top: 77rcap;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Brownie{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+
+}
+
+.Brownie_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem; 
+
+}
+
+.Brownie_txt{
+    font-size: small;
+    color: grey;
+}
+
+.Brownie_price{
+    color: brown;
+    margin-bottom: 30px;
+
+}
+
+.Brownie_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 22pc;
+    top: 77rcap;
+    color: black;
+    font-weight: bold;
+    
+
+}
+
+.panna_cotta{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+
+
+}
+
+.panna_cotta_img{
+    border-radius: 10px;
+    width: 12rem;
+    height: 11rem; 
+
+}
+
+.panna_cotta_txt{
+    font-size: small;
+    color: grey;
+}
+
+.panna_cotta_price{ 
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.panna_cotta_button{
+    border-radius: 20px;
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-color: rgba(165, 42, 42, 0.788);
+    display: flex;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 39pc;
+    top: 77rcap;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    
+
+}
+
+.Your_Cart{
+    background-color: white;
+    margin-left: 70%;
+    transform: translateY(-50rem);
+    width: 20rem;
+    height: 20rem;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.your_cart_header{
+    margin: 0 auto;
+    color: brown;
+    padding-left: 30%;
+    
+}
+.Carbon_txt{
+    color: black;
+    
+}
+.carbon-neutral_txt{
+    background-color: rgb(219, 196, 255);
+    font-size: small;
+    width: 16rem;
+    margin-left: 2rem;
+}
+.confirm_button{
+    background-color: brown;
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: lightcoral;
+    color: white;
+    margin-left:2rem;
+}
